@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ 
+
+ <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,15 +24,21 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Forgot Password</title>
+    <title>Register</title>
   </head>
+
+
+
+
+
+
   <body>
     <div class="overflow-hidden">
       <div class="row">
-        <div class="col-md-12 col-lg-8 col-xl-8">
+        <div class="col-md-8 col-md-12 col-sm-12 col-lg-12 col-xl-8 my-auto">
           <div
             id="carouselExampleCaptions"
-            class="carousel slide carousel1"
+            class="carousel slide"
             data-bs-ride="carousel"
           >
             <div class="carousel-indicators">
@@ -59,7 +67,7 @@
               <div class="carousel-item active">
                 <img
                   src="images/Grow-Trees-On-the-path-to-environment-sustainability-login.png"
-                  class="w-100 img-fluid "
+                  class="w-100 img-fluid"
                   alt="..."
                 />
                 <div class="carousel-caption">
@@ -130,37 +138,65 @@
 
         
 
-        <div class="col-md-12  col-lg-4 col-xl-4 d-flex justify-content-center align-items-center my-auto">
-          
+        <div class="col-md-12 col-sm-12 col-lg-12 col-xl-4 d-flex justify-content-center align-items-center mx-auto my-auto">
           <form>
-            <div class="form-text" style="text-align: center; max-width: 390px;">
-              <h5>Forgot Password</h5>
-              <p>Enter your email address you've using for your account below and we will send you a password reset link</p>
+
+            <div class="form-group">
+                <label for="first-name">First Name </label>
+                <input type="text" id="first-name" class="form-control form-control-sm" aria-label="Large">
             </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-      
-            
             <br>
-                <button type="submit" class="btn btn-outline-warning w-100 rounded-pill" > Reset My Password </button>
-                <br>
 
-                <br>
-                <a href="index.html" class="text-reset text-decoration-none">
-                    <p class="text-center lh-lg"> Login </p>
-                </a>  
-                <br>
+            <div class="form-group">
+                <label for="last-name">Last Name </label>
+                <input type="text" id="last-name" class="form-control form-control-sm" aria-label="Large">
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="phone">Phone Number </label>
+                <input type="text" id="phone" class="form-control form-control-sm" aria-label="Large">
+            </div>
+            <br>
+
+            <div class="form-group">
+              <label for="email"> Email address </label>
+              <input type="email" class="form-control form-control-sm" id="email" aria-label="Large" >
+            </div>
+            <br>
+
+
+            <div class="form-group">
+                <label for="password">Password </label>
+
+                <input type="password" id="password" class="form-control form-control-sm" aria-label="Large">
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password </label>
+
+                <input type="confirm-password" id="password" class="form-control form-control-sm" aria-label="Large">
+            </div>
+            <br>
+
+
+
+
+            <button type="submit" class="btn btn-outline-warning w-100 rounded-pill" > Register Here </button>
+
+            <br>
+            <a href="lost-password.html" class="text-reset text-decoration-none">
+                <p class="text-center lh-lg"> Lost your password? </p>
+            </a>
+            <div class="sign-up" style="max-width: 390px;">
                 <p class="text-center">
-                    <label for="privacyPolicy">Privacy Policy </label></p>
-
-
-
-
-          </form>
-
+                    Already Registered? <a href="index.html" class="text-decoration-none"> Login now </a></p>
+            </div>
+            <br>
+            <p class="text-center">
+                <label for="privacyPolicy">Privacy Policy </label></p>
+        </form>
         </div>
       </div>
     </div>
